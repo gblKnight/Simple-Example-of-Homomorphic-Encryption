@@ -1,4 +1,4 @@
-# Simple Example of Homomorphic Encryption
+# Simple Example of Homomorphic Encryption Used in FS-GMGP
 ## Environment Requirement
 
 The required packages are as follows:
