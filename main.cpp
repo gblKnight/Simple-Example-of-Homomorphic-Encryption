@@ -1,14 +1,3 @@
-/* Copyright (C) 2019 IBM Corp.
- * This program is Licensed under the Apache License, Version 2.0
- * (the "License"); you may not use this file except in compliance
- * with the License. You may obtain a copy of the License at
- *   http://www.apache.org/licenses/LICENSE-2.0
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License. See accompanying LICENSE file.
- */
 #include <iostream>
 
 #include <helib/helib.h>
@@ -18,17 +7,6 @@
 
 int main(int argc, char* argv[])
 {
-  /*  Example of binary arithmetic using the BGV scheme  */
-
-  // First set up parameters.
-  //
-  // NOTE: The parameters used in this example code are for demonstration only.
-  // They were chosen to provide the best performance of execution while
-  // providing the context to demonstrate how to use the "Binary Arithmetic
-  // APIs". The parameters do not provide the security level that might be
-  // required by real use/application scenarios.
-
-  // Plaintext prime modulus.
   long p = 2;
   // Cyclotomic polynomial - defines phi(m).
   long m = 4095;
